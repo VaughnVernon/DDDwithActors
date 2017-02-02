@@ -1,0 +1,313 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.1
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+24 items
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/Account$$anonfun$receiveCommand$1.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/Account$$anonfun$receiveRecover$1.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/Account.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountOpened$.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountOpened.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountState$.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountState.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/DepositFunds$.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/DepositFunds.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/FundsDeposited$.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/FundsDeposited.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/FundsWithdrawn$.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/FundsWithdrawn.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/OpenAccount$.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/OpenAccount.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/WithdrawFunds$.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/WithdrawFunds.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountRunner$.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountRunner$delayedInit$body.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountRunner.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountService$$anonfun$receive$1.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountService.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/ManageAccount$.class
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/ManageAccount.class
+binary dependencies:
+7 items
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.16.jar
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/.ivy2/cache/com.typesafe.akka/akka-persistence_2.12/jars/akka-persistence_2.12-2.4.16.jar
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> /Users/vvernon/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.16.jar
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+1 items
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> /Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+24 items
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Account
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Account$$anonfun$receiveCommand$1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Account$$anonfun$receiveRecover$1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> AccountOpened
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> AccountOpened$
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> AccountState
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> AccountState$
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> DepositFunds
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> DepositFunds$
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> FundsDeposited
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> FundsDeposited$
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> FundsWithdrawn
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> FundsWithdrawn$
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> OpenAccount
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> OpenAccount$
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> WithdrawFunds
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> WithdrawFunds$
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> AccountRunner
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> AccountRunner$
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> AccountRunner$delayedInit$body
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> AccountService
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> AccountService$$anonfun$receive$1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> ManageAccount
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> ManageAccount$
+used names:
+138 items
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> !
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> &&
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> +
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> -
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> <init>
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> ==
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> A1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> AbstractFunction1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> AbstractFunction2
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Account
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> AccountOpened
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> AccountState
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> B1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> DepositFunds
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Function1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> FundsDeposited
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> FundsWithdrawn
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Int
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> None
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> OpenAccount
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Option
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> PersistentActor
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Predef
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Product
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Receive
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> ScalaRunTime
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Serializable
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Statics
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> String
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Tuple2
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> Unit
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> WithdrawFunds
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> _root_
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> _toString
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> accountNumber
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> actor
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> actorRef2Scala
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> akka
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> amount
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> anyHash
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> apply
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> asInstanceOf
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> balance
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> eq
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> event
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> finalizeHash
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> fromDeposited
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> fromWithdrawn
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> getOrElse
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> initialBalance
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> isInstanceOf
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> map
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> mix
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> name
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> package
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> path
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> persist
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> persistence
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> runtime
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> scala
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> self
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> sender
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> state
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> state_=
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> toString
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> typedProductIterator
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> unchecked
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> updateWith
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> ||
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> !
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> &&
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> <init>
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> ==
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> A1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> AbstractFunction1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> Account
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> AccountRunner
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> AccountService
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> Actor
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> ActorRef
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> ActorSystem
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> App
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> B1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> ClassTag
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> Function1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> ManageAccount
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> None
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> Option
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> Predef
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> Product
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> Props
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> ScalaRunTime
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> Serializable
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> String
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> StringContext
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> Thread
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> _1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> _2
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> _hashCode
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> _root_
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> _toString
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> account
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> accountNumber
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> accountService
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> account_=
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> actor
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> actorOf
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> actorRef2Scala
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> akka
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> apply
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> asInstanceOf
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> com
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> config
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> context
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> eq
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> event
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> isInstanceOf
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> java
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> lang
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> materializeClassTag
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> package
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> println
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> qual$1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> reflect
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> runtime
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> s
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> scala
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> self
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> sleep
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> state
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> system
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> toString
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> typedProductIterator
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> typesafe
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> unchecked
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> x$1
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> x$2
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> ||
+product stamps:
+24 items
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/Account$$anonfun$receiveCommand$1.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/Account$$anonfun$receiveRecover$1.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/Account.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountOpened$.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountOpened.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountRunner$.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountRunner$delayedInit$body.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountRunner.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountService$$anonfun$receive$1.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountService.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountState$.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/AccountState.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/DepositFunds$.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/DepositFunds.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/FundsDeposited$.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/FundsDeposited.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/FundsWithdrawn$.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/FundsWithdrawn.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/ManageAccount$.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/ManageAccount.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/OpenAccount$.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/OpenAccount.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/WithdrawFunds$.class -> lastModified(1485981021000)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/target/scala-2.12/classes/WithdrawFunds.class -> lastModified(1485981021000)
+source stamps:
+2 items
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> hash(1b7d296fde3238056d0f809a443766d8d9d1abe4)
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> hash(5e6dab604ad024e6617aae5ada16f13e4251f068)
+binary stamps:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1444172124000)
+/Users/vvernon/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.16.jar -> lastModified(1482326754000)
+/Users/vvernon/.ivy2/cache/com.typesafe.akka/akka-persistence_2.12/jars/akka-persistence_2.12-2.4.16.jar -> lastModified(1482326929000)
+/Users/vvernon/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> lastModified(1480936165000)
+class names:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/vvernon/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.16.jar -> akka.actor.Actor
+/Users/vvernon/.ivy2/cache/com.typesafe.akka/akka-persistence_2.12/jars/akka-persistence_2.12-2.4.16.jar -> akka.persistence.PersistentActor
+/Users/vvernon/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> scala.runtime.AbstractPartialFunction
+internal apis:
+2 items
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHByuH5YAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwzk05+HQABHNlbGZzcQB+AAuJNrfHdAAHY29udGV4dHVxAH4ACQAAAF5zcQB+AAsYyxLGdAAHdW5zdGFzaHNxAH4AC1UJBel0AAZub3RpZnlzcQB+AAujs6gRdAAPZGVsZXRlU25hcHNob3Rzc3EAfgALXzzjlHQADVdpdGhkcmF3RnVuZHNzcQB+AAup1GRgdAAHUmVjZWl2ZXNxAH4AC6Cc5S90AA1mcm9tV2l0aGRyYXduc3EAfgALZCEll3QABXN0YXNoc3EAfgALOqITaHQAD3BlcnNpc3RBbGxBc3luY3NxAH4ACzN0XU10AAR3YWl0c3EAfgAL1bFT0XQADmNvcHkkZGVmYXVsdCQyc3EAfgALxGJPy3QADSRhc0luc3RhbmNlT2ZzcQB+AAsWcEX7dAANc25hcHNob3R0ZXJJZHNxAH4AC6WlcaR0AAdwcmVwZW5kc3EAfgALXBi3B3QADkZ1bmRzV2l0aGRyYXduc3EAfgALMOIEQnQABXN0YXRlc3EAfgALh4NocHQADHByb2R1Y3RBcml0eXNxAH4AC0/iUc10AAp1cGRhdGVXaXRoc3EAfgAL1wcNLnQABmVxdWFsc3NxAH4ACxSAjVF0AApkZWZlckFzeW5jc3EAfgALhnjQGnQADmRlbGV0ZU1lc3NhZ2Vzc3EAfgALNqzp3nQAEnNuYXBzaG90U2VxdWVuY2VOcnNxAH4AC92Sgvh0AAxhc0luc3RhbmNlT2ZzcQB+AAt/ByEXdAAHam91cm5hbHNxAH4AC9bBerh0AApjbGVhclN0YXNoc3EAfgALtkP6HnQACnBlcnNpc3RBbGxzcQB+AAswoMLKdAAMc3luY2hyb25pemVkc3EAfgALEQfP2nQAHWludGVybmFsU3Rhc2hPdmVyZmxvd1N0cmF0ZWd5c3EAfgAL4C3PGHQADGxvYWRTbmFwc2hvdHNxAH4ACz/HRlx0AA9yZWNvdmVyeVJ1bm5pbmdzcQB+AAscTQK7dAANJGlzSW5zdGFuY2VPZnNxAH4AC5yMmKl0AAdyZWNlaXZlc3EAfgALKn8ot3QACnByZVJlc3RhcnRzcQB+AAttvLO9dAAHbWFpbGJveHNxAH4AC2TTgi90AAtPcGVuQWNjb3VudHNxAH4AC9fkQzt0AA1hcm91bmRSZWNlaXZlc3EAfgALuvNJPnQADWZyb21EZXBvc2l0ZWRzcQB+AAv7KE09dAAIY2FuRXF1YWxzcQB+AAvthQgAdAAHYmFsYW5jZXNxAH4AC+q4iIV0AAtwb3N0UmVzdGFydHNxAH4ACxBoTbJ0AA9vblJlcGxheVN1Y2Nlc3NzcQB+AAs9GmyedAAIcG9zdFN0b3BzcQB+AAu5Et0ldAARb25QZXJzaXN0UmVqZWN0ZWRzcQB+AAu6RQupdAANcHJvZHVjdFByZWZpeHNxAH4ACxYi+TF0AAlub3RpZnlBbGxzcQB+AAt5vJmUdAALY3JlYXRlU3Rhc2hzcQB+AAtmnQBEdAAGYW1vdW50c3EAfgALJ3MZJXQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgAL0uwdz3QADGlzSW5zdGFuY2VPZnNxAH4AC6sQ9Qx0AA5pbml0aWFsQmFsYW5jZXNxAH4AC5eLwg50ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALLpU44HQAEG9uUGVyc2lzdEZhaWx1cmVzcQB+AAsiJ8sjdAAMc2F2ZVNuYXBzaG90c3EAfgALZMGx23QADmFyb3VuZFBvc3RTdG9wc3EAfgALX9ifMnQACHJlY292ZXJ5c3EAfgALvZB5DnQAEHJlY292ZXJ5RmluaXNoZWRzcQB+AAv9j4V8dAAHcGVyc2lzdHNxAH4ACxo6u4N0AAY8aW5pdD5zcQB+AAtRQW2zdAAORnVuZHNEZXBvc2l0ZWRzcQB+AAvAdipBdAAIcHJlU3RhcnRzcQB+AAt/0R4kdAAJdW5oYW5kbGVkc3EAfgALvXCfuXQAAj09c3EAfgAL4B/Ux3QADnJlY2VpdmVSZWNvdmVyc3EAfgAL2ayPA3QABWNsb25lc3EAfgAL481jgXQADERlcG9zaXRGdW5kc3NxAH4AC5jmse90AA5kZWxldGVTbmFwc2hvdHNxAH4AC91uSA50AAYkaW5pdCRzcQB+AAtmcBfNdAANQWNjb3VudE9wZW5lZHNxAH4AC8/kVGR0AAxBY2NvdW50U3RhdGVzcQB+AAuXrZhXdAAMcGVyc2lzdEFzeW5jc3EAfgALopXOoHQABGNvcHlzcQB+AAudVDZLdAANYWNjb3VudE51bWJlcnNxAH4ACwh2aLV0AAZzZW5kZXJzcQB+AAsw7tJ0dAAIdG9TdHJpbmdzcQB+AAtN4gNBdAAKdW5zdGFzaEFsbHNxAH4AC78oQYx0AAIhPXNxAH4AC0Ft61F0AA9qb3VybmFsUGx1Z2luSWRzcQB+AAteLFc0dAAIZ2V0Q2xhc3NzcQB+AAupD+DEdAAOY29weSRkZWZhdWx0JDFzcQB+AAs2QPCldAAOcmVjZWl2ZUNvbW1hbmRzcQB+AAvwvHLqdAACbmVzcQB+AAseGPhgdAAQc25hcHNob3RQbHVnaW5JZHNxAH4AC0t82eZ0AA1wZXJzaXN0ZW5jZUlkc3EAfgALlSeIxHQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC0olc5V0AAJlcXNxAH4AC6lrc8V0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAuYjtP5dAAObGFzdFNlcXVlbmNlTnJzcQB+AAsiZaV1dAANc25hcHNob3RTdG9yZXNxAH4AC+RtPD50AAIjI3NxAH4AC47Dl9B0AAhmaW5hbGl6ZXNxAH4AC9xDmVR0AA5wcm9kdWN0RWxlbWVudHNxAH4AC4IMP8p0AAhoYXNoQ29kZXNxAH4AC8EHoM50AA5hcm91bmRQcmVTdGFydHNxAH4AC5C0dIB0ABFvblJlY292ZXJ5RmFpbHVyZXNxAH4ACz3HuaV0AAdBY2NvdW50c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAACHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4A13hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgBVdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AO5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4A10wACWluaGVyaXRlZHEAfgDXTAAHcGFyZW50c3EAfgDXeHEAfgDzc3EAfgDudXEAfgDSAAAAAHNxAH4A7nVxAH4A0gAAAABzcQB+AO51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+APJ0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+APJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AQxzcQB+AP9xAH4BAnNxAH4BA3NxAH4BBnVxAH4BCQAAAANzcQB+AQt0AARqYXZhc3EAfgELdAACaW9xAH4BEHNxAH4A/3QAB1Byb2R1Y3RxAH4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
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDjzWzGAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwtzxy03QABHNlbGZzcQB+AAvqj6oFdAAHY29udGV4dHVxAH4ACQAAADVzcQB+AAuqc8cMdAAOYWNjb3VudFNlcnZpY2VzcQB+AAtillgadAAGbm90aWZ5c3EAfgALx0pcunQAB1JlY2VpdmVzcQB+AAtKC6NXdAANTWFuYWdlQWNjb3VudHNxAH4AC7WzYSN0AAR3YWl0c3EAfgALQR9xuXQADSRhc0luc3RhbmNlT2ZzcQB+AAv+TuZadAAGc3lzdGVtc3EAfgALc8/P0nQADHByb2R1Y3RBcml0eXNxAH4AC4Yw/4N0AAZlcXVhbHNzcQB+AAsmNoNUdAAMYXNJbnN0YW5jZU9mc3EAfgALI6igK3QADmV4ZWN1dGlvblN0YXJ0c3EAfgALaPyBEXQADHN5bmNocm9uaXplZHNxAH4AC50u5JJ0AA0kaXNJbnN0YW5jZU9mc3EAfgALxXJ3aHQAB3JlY2VpdmVzcQB+AAt2FTMIdAAKcHJlUmVzdGFydHNxAH4AC18cDn50AA1hcm91bmRSZWNlaXZlc3EAfgALy4dYdXQACGNhbkVxdWFsc3EAfgALKWY3hXQAC3Bvc3RSZXN0YXJ0c3EAfgALjsLdpnQABG1haW5zcQB+AAuJFSMxdAAIcG9zdFN0b3BzcQB+AAtqv0W0dAANcHJvZHVjdFByZWZpeHNxAH4AC4VLLLt0AAlub3RpZnlBbGxzcQB+AAvo/qOxdAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAtN0OE5dAAMaXNJbnN0YW5jZU9mc3EAfgAL1yCaRHQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAtC90OvdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAsh/PzkdAANQWNjb3VudFJ1bm5lcnNxAH4ACyzbk010AAY8aW5pdD5zcQB+AAtXxqSFdAAIcHJlU3RhcnRzcQB+AAt8rCsadAAJdW5oYW5kbGVkc3EAfgALEVbDYXQAAj09c3EAfgALCB+zQXQABWNsb25lc3EAfgALPgaflHQABiRpbml0JHNxAH4AC+AWmIR0AARjb3B5c3EAfgALW16rO3QADWFjY291bnROdW1iZXJzcQB+AAtOkf4gdAAGc2VuZGVyc3EAfgALAT0TXXQACHRvU3RyaW5nc3EAfgAL6ghRiHQABGFyZ3NzcQB+AAtesVpkdAACIT1zcQB+AAvR2U8gdAAHYWNjb3VudHNxAH4AC6VBeoN0AAhnZXRDbGFzc3NxAH4AC0OTNDJ0AA5jb3B5JGRlZmF1bHQkMXNxAH4ACzVVVEN0AA5BY2NvdW50U2VydmljZXNxAH4AC+xaC450AAJuZXNxAH4ACyF9BNx0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAu4mWPQdAACZXFzcQB+AAtmP7P+dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALTUdIbXQAC2RlbGF5ZWRJbml0c3EAfgALoHu8onQAAiMjc3EAfgALONsCwHQACGZpbmFsaXplc3EAfgALYGD/PnQADnByb2R1Y3RFbGVtZW50c3EAfgALBqkvcXQACGhhc2hDb2Rlc3EAfgALtDWMKnQADmFyb3VuZFByZVN0YXJ0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AhXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgBHdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AIVMAAlpbmhlcml0ZWRxAH4AhUwAB3BhcmVudHNxAH4AhXhxAH4Ao3NxAH4AnnVxAH4AgAAAAABzcQB+AJ51cQB+AIAAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AIZxAH4Aj3VxAH4AkAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AK14cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgAMTAAFdmFsdWVxAH4ADHhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AonQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDHc3EAfgCSAHEAfgA3dXEAfgCUAAAAAHNxAH4AunQABFVuaXRxAH4AwHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+AK14cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AJd0AAVQbGFpbnEAfgBdc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgC7WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCic3EAfgC6dAAFQXJyYXlxAH4AwHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgC6dAAGU3RyaW5nc3EAfgC+c3EAfgDBdXEAfgDEAAAAA3NxAH4AxnQABGphdmFzcQB+AMZ0AARsYW5ncQB+AMtzcQB+AJ51cQB+AOIAAAAEc3EAfgC6dAADQXBwcQB+AMBzcQB+ALp0AAtEZWxheWVkSW5pdHEAfgDAc3EAfgC6dAAGT2JqZWN0cQB+AOZzcQB+ALp0AANBbnlxAH4AwHNxAH4AgnEAfgCPdXEAfgCQAAAAAHNxAH4AkgBxAH4AGXVxAH4AlAAAAAB+cQB+AJZ0AAhDbGFzc0RlZnVxAH4AmgAAAABzcQB+AJ5xAH4ApHNxAH4AnnNxAH4ApnNxAH4AnnVxAH4AgAAAAABzcQB+AJ51cQB+AIAAAAAAc3EAfgCedXEAfgDiAAAABnNxAH4AunQADFNlcmlhbGl6YWJsZXNxAH4AvnNxAH4AwXVxAH4AxAAAAAJzcQB+AMZxAH4AyXEAfgDLc3EAfgC6cQB+AQhzcQB+AL5zcQB+AMF1cQB+AMQAAAADc3EAfgDGcQB+AOpzcQB+AMZ0AAJpb3EAfgDLc3EAfgC6dAAHUHJvZHVjdHEAfgEJc3EAfgC6dAAGRXF1YWxzcQB+AQlzcQB+ALpxAH4A9HNxAH4AvnNxAH4AwXVxAH4AxAAAAANzcQB+AMZxAH4A6nNxAH4AxnEAfgDscQB+AMtzcQB+ALpxAH4A9nEAfgEJc3EAfgCCcQB+AI91cQB+AJAAAAAAc3EAfgCSAHEAfgBndXEAfgCUAAAAAHEAfgD7dXEAfgCaAAAAAHNxAH4AnnEAfgCkc3EAfgCec3EAfgCmc3EAfgCedXEAfgCAAAAAAHNxAH4AnnVxAH4AgAAAAABzcQB+AJ51cQB+AOIAAAADc3EAfgC6dAAFQWN0b3JzcQB+AL5zcQB+AMF1cQB+AMQAAAADc3EAfgDGdAAEYWtrYXNxAH4AxnQABWFjdG9ycQB+AMtzcQB+ALpxAH4A9HNxAH4AvnNxAH4AwXVxAH4AxAAAAANzcQB+AMZxAH4A6nNxAH4AxnEAfgDscQB+AMtzcQB+ALpxAH4A9nNxAH4AvnNxAH4AwXVxAH4AxAAAAAJzcQB+AMZxAH4AyXEAfgDLdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVn7XuDodXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRebatgStAk5mF6rlraFvE+QlHwaA==
+external apis:
+0 items
+source infos:
+2 items
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/Account.scala -> 
+AAAAAAAAAAA=
+/Users/vvernon/Projects/Presentations/DDD_Europe/2017/DDDwithActors/ScalaAkka/src/main/scala/AccountRunner.scala -> 
+AAAAAAAAAAA=
+compilations:
+17 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfreIWJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfruyuZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfr1vw91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfsfx1B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfsiHzB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfskbu51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfsl7wB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfsnGuZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfspw/11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfszjK91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfs+kGp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfs/d0h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfs/tsN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWftE0Kt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWftIcQh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWftTi0N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfte4Oh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZy9Vc2Vycy92dmVybm9uL1Byb2plY3RzL1ByZXNlbnRhdGlvbnMvREREX0V1cm9wZS8yMDE3L0RERHdpdGhBY3RvcnMvU2NhbGFBa2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
