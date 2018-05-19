@@ -15,6 +15,6 @@ There are examples in various programming languages and using different toolkits
 
 - [Erlang](https://github.com/VaughnVernon/DDDwithActors/tree/master/Erlang)
 
-- [Pony](https://github.com/d-led/DDDwithActorsPony)
+- [Pony](https://github.com/d-led/DDDwithActorsPony) provided by [Dmitry Ledentsov](https://github.com/d-led)
 
 - [Scala/Akka](https://github.com/VaughnVernon/DDDwithActors/tree/master/ScalaAkka)
