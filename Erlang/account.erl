@@ -7,23 +7,52 @@ start() ->
 
 process(State = #state{balance = Balance}) ->
   receive
+    % opening an account
     {Sender, #open_account{account_number = AccountNumber, initial_balance = InitialBalance}} ->
-      NewState = State#state{account_number=AccountNumber, balance=InitialBalance},
-      Event = #account_opened{account_number=AccountNumber, initial_balance=InitialBalance},
-      Sender ! {NewState, Event},
-      process(NewState);
+      InitialState = State#state{
+        account_number = AccountNumber,
+        balance = InitialBalance
+      },
+      
+      Event = #account_opened{
+        account_number = AccountNumber,
+        initial_balance = InitialBalance
+      },
+      
+      Sender ! {InitialState, Event},
+      process(InitialState);
     
+    % depositing funds
     {Sender, #deposit_funds{amount = Amount}} ->
-      NewState = #state{balance = NewBalance} = State#state{balance = Balance + Amount},
-      Event = #funds_deposited{amount = Amount, balance = NewBalance},
-      Sender ! {NewState, Event},
-      process(NewState);
+      StateAfterDeposit 
+        = #state{balance = NewBalance}
+        = State#state{
+          balance = Balance + Amount
+        },
+      
+      Event = #funds_deposited{
+        amount = Amount,
+        balance = NewBalance
+      },
+
+      Sender ! {StateAfterDeposit, Event},
+      process(StateAfterDeposit);
     
+    % wihdrawing funds
     {Sender, #withdraw_funds{amount = Amount}} ->
-      NewState = #state{balance = NewBalance} = State#state{balance = Balance - Amount},
-      Event = #funds_withdrawn{amount = Amount, balance = NewBalance},
-      Sender ! {NewState, Event},
-      process(NewState);
+      StateAfterWithdrawal
+        = #state{balance = NewBalance}
+        = State#state{
+          balance = Balance - Amount
+      },
+      
+      Event = #funds_withdrawn{
+        amount = Amount,
+        balance = NewBalance
+      },
+      
+      Sender ! {StateAfterWithdrawal, Event},
+      process(StateAfterWithdrawal);
     
     U = _ ->
       io:format("Unknown command: ~p~n", [U]),
