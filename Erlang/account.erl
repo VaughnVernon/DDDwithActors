@@ -38,7 +38,7 @@ process(State = #state{balance = Balance}) ->
       Sender ! {StateAfterDeposit, Event},
       process(StateAfterDeposit);
     
-    % wihdrawing funds
+    % withdrawing funds
     {Sender, #withdraw_funds{amount = Amount}} ->
       StateAfterWithdrawal
         = #state{balance = NewBalance}
@@ -50,7 +50,7 @@ process(State = #state{balance = Balance}) ->
         amount = Amount,
         balance = NewBalance
       },
-      
+
       Sender ! {StateAfterWithdrawal, Event},
       process(StateAfterWithdrawal);
     
