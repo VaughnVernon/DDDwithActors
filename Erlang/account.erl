@@ -5,23 +5,23 @@
 start() ->
   spawn(account, process, [#state{}]).
 
-process(State = #state{}) ->
+process(State = #state{balance = Balance}) ->
   receive
-    {Sender, Command = #open_account{}} ->
-      NewState = State#state{account_number=Command#open_account.account_number, balance=Command#open_account.initial_balance},
-      Event = #account_opened{account_number=Command#open_account.account_number, initial_balance=Command#open_account.initial_balance},
+    {Sender, #open_account{account_number = AccountNumber, initial_balance = InitialBalance}} ->
+      NewState = State#state{account_number=AccountNumber, balance=InitialBalance},
+      Event = #account_opened{account_number=AccountNumber, initial_balance=InitialBalance},
       Sender ! {NewState, Event},
       process(NewState);
     
-    {Sender, Command = #deposit_funds{}} ->
-      NewState = State#state{balance = State#state.balance + Command#deposit_funds.amount},
-      Event = #funds_deposited{amount = Command#deposit_funds.amount, balance = NewState#state.balance},
+    {Sender, #deposit_funds{amount = Amount}} ->
+      NewState = #state{balance = NewBalance} = State#state{balance = Balance + Amount},
+      Event = #funds_deposited{amount = Amount, balance = NewBalance},
       Sender ! {NewState, Event},
       process(NewState);
     
-    {Sender, Command = #withdraw_funds{}} ->
-      NewState = State#state{balance = State#state.balance - Command#withdraw_funds.amount},
-      Event = #funds_withdrawn{amount = Command#withdraw_funds.amount, balance = NewState#state.balance},
+    {Sender, #withdraw_funds{amount = Amount}} ->
+      NewState = #state{balance = NewBalance} = State#state{balance = Balance - Amount},
+      Event = #funds_withdrawn{amount = Amount, balance = NewBalance},
       Sender ! {NewState, Event},
       process(NewState);
     
