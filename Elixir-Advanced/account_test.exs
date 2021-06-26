@@ -13,12 +13,12 @@ defmodule AccountTest do
     end
 
     assert capture_io(execute_script) =~ """
-           Account.AccountOpened account_number: A-1234, initial_balance: 100
-           Account.State account_number: A-1234, balance: 100
-           Account.FundsDeposited amount: 50, balance: 150
-           Account.State account_number: A-1234, balance: 150
-           Account.FundsWithdrawn amount: 75, balance: 75
-           Account.State account_number: A-1234, balance: 75
+           %Account.Events.AccountOpened{account_number: \"A-1234\", initial_balance: 100}
+           %Account.State{account_number: \"A-1234\", balance: 100}
+           %Account.Events.FundsDeposited{amount: 50, balance: 150}
+           %Account.State{account_number: \"A-1234\", balance: 150}
+           %Account.Events.FundsWithdrawn{amount: 75, balance: 75}
+           %Account.State{account_number: \"A-1234\", balance: 75}
            """
   end
 end
