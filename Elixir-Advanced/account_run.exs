@@ -11,17 +11,14 @@ end
 
 account = Account.start()
 
-send(
-  account,
-  {self(), %Account.Commands.OpenAccount{account_number: "A-1234", initial_balance: 100}}
-)
+Account.open(account, account_number: "A-1234", initial_balance: 100)
 
 Receiver.receive_result()
 
-send(account, {self(), %Account.Commands.DepositFunds{amount: 50}})
+Account.deposit(account, amount: 50)
 
 Receiver.receive_result()
 
-send(account, {self(), %Account.Commands.WithdrawFunds{amount: 75}})
+Account.withdraw(account, amount: 75)
 
 Receiver.receive_result()
