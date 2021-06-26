@@ -52,6 +52,21 @@ defmodule Account do
     end
   end
 
+  def open(pid, fields) do
+    send(pid, {self(), struct!(OpenAccount, fields)})
+    pid
+  end
+
+  def deposit(pid, fields) do
+    send(pid, {self(), struct!(DepositFunds, fields)})
+    pid
+  end
+
+  def withdraw(pid, fields) do
+    send(pid, {self(), struct!(WithdrawFunds, fields)})
+    pid
+  end
+
   def handle(%State{} = state, %OpenAccount{} = open) do
     state = %State{state | account_number: open.account_number, balance: open.initial_balance}
 

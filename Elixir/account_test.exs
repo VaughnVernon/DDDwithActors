@@ -5,10 +5,6 @@ defmodule AccountTest do
 
   Code.require_file("account.ex")
 
-  alias Account.State
-  alias Account.Commands.{OpenAccount, DepositFunds, WithdrawFunds}
-  alias Account.Events.{AccountOpened, FundsDeposited, FundsWithdrawn}
-
   setup :start_supervised_account
 
   test "account_run.exs works" do
@@ -29,25 +25,27 @@ defmodule AccountTest do
   end
 
   test "opening account", %{account_pid: pid} do
-    send(pid, {self(), %OpenAccount{account_number: "A-1234", initial_balance: 100}})
+    Account.open(pid, account_number: "A-1234", initial_balance: 100)
 
-    assert_receive {%State{account_number: "A-1234", balance: 100},
-                    %AccountOpened{account_number: "A-1234", initial_balance: 100}}
+    assert_receive {%Account.State{account_number: "A-1234", balance: 100},
+                    %Account.Events.AccountOpened{account_number: "A-1234", initial_balance: 100}}
   end
 
   test "depositing funds", %{account_pid: pid} do
-    send(pid, {self(), %OpenAccount{account_number: "A-1234", initial_balance: 100}})
-    send(pid, {self(), %DepositFunds{amount: 50}})
+    Account.open(pid, account_number: "A-1234", initial_balance: 100)
+    Account.deposit(pid, amount: 50)
 
-    assert_receive {%State{account_number: "A-1234", balance: 150}, %FundsDeposited{amount: 50}}
+    assert_receive {%Account.State{account_number: "A-1234", balance: 150},
+                    %Account.Events.FundsDeposited{amount: 50}}
   end
 
   test "withdrawing funds", %{account_pid: pid} do
-    send(pid, {self(), %OpenAccount{account_number: "A-1234", initial_balance: 100}})
-    send(pid, {self(), %DepositFunds{amount: 50}})
-    send(pid, {self(), %WithdrawFunds{amount: 75}})
+    Account.open(pid, account_number: "A-1234", initial_balance: 100)
+    Account.deposit(pid, amount: 50)
+    Account.withdraw(pid, amount: 75)
 
-    assert_receive {%State{account_number: "A-1234", balance: 75}, %FundsWithdrawn{amount: 75}}
+    assert_receive {%Account.State{account_number: "A-1234", balance: 75},
+                    %Account.Events.FundsWithdrawn{amount: 75}}
   end
 
   def start_supervised_account(_ctx) do
