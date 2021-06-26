@@ -2,8 +2,8 @@ defmodule Receiver do
   def receive_result do
     receive do
       {state, event} ->
-        IO.puts(event)
-        IO.puts(state)
+        IO.inspect(event)
+        IO.inspect(state)
         state
     end
   end
