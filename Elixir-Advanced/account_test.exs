@@ -32,17 +32,19 @@ defmodule AccountTest do
   end
 
   test "depositing funds", %{account_pid: pid} do
-    Account.open(pid, account_number: "A-1234", initial_balance: 100)
-    Account.deposit(pid, amount: 50)
+    pid
+    |> Account.open(account_number: "A-1234", initial_balance: 100)
+    |> Account.deposit(amount: 50)
 
     assert_receive {%Account.State{account_number: "A-1234", balance: 150},
                     %Account.Events.FundsDeposited{amount: 50}}
   end
 
   test "withdrawing funds", %{account_pid: pid} do
-    Account.open(pid, account_number: "A-1234", initial_balance: 100)
-    Account.deposit(pid, amount: 50)
-    Account.withdraw(pid, amount: 75)
+    pid
+    |> Account.open(account_number: "A-1234", initial_balance: 100)
+    |> Account.deposit(amount: 50)
+    |> Account.withdraw(amount: 75)
 
     assert_receive {%Account.State{account_number: "A-1234", balance: 75},
                     %Account.Events.FundsWithdrawn{amount: 75}}

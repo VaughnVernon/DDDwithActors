@@ -18,10 +18,9 @@ end
 
 account = Account.start()
 
-Account.open(account, account_number: "A-1234", initial_balance: 100)
-
-Account.deposit(account, amount: 50)
-
-Account.withdraw(account, amount: 75)
+account
+|> Account.open(account_number: "A-1234", initial_balance: 100)
+|> Account.deposit(amount: 50)
+|> Account.withdraw(amount: 75)
 
 Receiver.receive_number_of_results(3)
