@@ -7,18 +7,21 @@ defmodule Receiver do
         state
     end
   end
+
+  def receive_number_of_results(expected_number_of_results) do
+    unless expected_number_of_results == 0 do
+      receive_result()
+      receive_number_of_results(expected_number_of_results - 1)
+    end
+  end
 end
 
 account = Account.start()
 
 Account.open(account, account_number: "A-1234", initial_balance: 100)
 
-Receiver.receive_result()
-
 Account.deposit(account, amount: 50)
-
-Receiver.receive_result()
 
 Account.withdraw(account, amount: 75)
 
-Receiver.receive_result()
+Receiver.receive_number_of_results(3)
