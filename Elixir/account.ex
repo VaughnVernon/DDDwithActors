@@ -28,31 +28,31 @@ defmodule Account do
   defmodule Events do
     defmodule AccountOpened do
       defstruct account_number: nil, initial_balance: nil
-    end
 
-    defimpl String.Chars, for: AccountOpened do
-      def to_string(event) do
-        "Account.AccountOpened account_number: #{event.account_number}, initial_balance: #{event.initial_balance}"
+      defimpl String.Chars, for: AccountOpened do
+        def to_string(event) do
+          "Account.AccountOpened account_number: #{event.account_number}, initial_balance: #{event.initial_balance}"
+        end
       end
     end
 
     defmodule FundsDeposited do
       defstruct amount: nil, balance: nil
-    end
 
-    defimpl String.Chars, for: FundsDeposited do
-      def to_string(event) do
-        "Account.FundsDeposited amount: #{event.amount}, balance: #{event.balance}"
+      defimpl String.Chars, for: FundsDeposited do
+        def to_string(event) do
+          "Account.FundsDeposited amount: #{event.amount}, balance: #{event.balance}"
+        end
       end
     end
 
     defmodule FundsWithdrawn do
       defstruct amount: nil, balance: nil
-    end
 
-    defimpl String.Chars, for: FundsWithdrawn do
-      def to_string(event) do
-        "Account.FundsWithdrawn amount: #{event.amount}, balance: #{event.balance}"
+      defimpl String.Chars, for: FundsWithdrawn do
+        def to_string(event) do
+          "Account.FundsWithdrawn amount: #{event.amount}, balance: #{event.balance}"
+        end
       end
     end
   end
