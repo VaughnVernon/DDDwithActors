@@ -1,7 +1,6 @@
 defmodule Account do
   defmodule State do
-    @derive {Inspect, only: [:account_number, :balance]}
-    defstruct account_number: nil, balance: nil, observer: nil
+    defstruct account_number: nil, balance: nil
   end
 
   defmodule Commands do
@@ -27,13 +26,13 @@ defmodule Account do
     end
 
     defmodule FundsDeposited do
-      @derive {Inspect, only: [:amount, :balance]}
-      defstruct amount: nil, balance: nil
+      @derive {Inspect, only: [:account_number, :amount, :new_balance]}
+      defstruct account_number: nil, amount: nil, new_balance: nil
     end
 
     defmodule FundsWithdrawn do
-      @derive {Inspect, only: [:amount, :balance]}
-      defstruct amount: nil, balance: nil
+      @derive {Inspect, only: [:account_number, :amount, :new_balance]}
+      defstruct account_number: nil, amount: nil, new_balance: nil
     end
   end
 
@@ -43,44 +42,38 @@ defmodule Account do
 
   # Client (Public API)
 
-  def start_link(observer \\ self()) do
-    GenServer.start_link(__MODULE__, observer)
+  def start_link(init_arg \\ nil) do
+    GenServer.start_link(__MODULE__, init_arg)
   end
 
   def open(pid, fields) do
-    :ok = GenServer.cast(pid, {:handle, struct!(OpenAccount, fields)})
-    pid
+    GenServer.call(pid, {:handle, struct!(OpenAccount, fields)})
   end
 
   def deposit(pid, fields) do
-    :ok = GenServer.cast(pid, {:handle, struct!(DepositFunds, fields)})
-    pid
+    GenServer.call(pid, {:handle, struct!(DepositFunds, fields)})
   end
 
   def withdraw(pid, fields) do
-    :ok = GenServer.cast(pid, {:handle, struct!(WithdrawFunds, fields)})
-    pid
+    GenServer.call(pid, {:handle, struct!(WithdrawFunds, fields)})
   end
 
   # Server (process implementation)
 
-  def init(observer) do
-    {:ok, %State{observer: observer}}
+  def init(_) do
+    {:ok, %State{}}
   end
 
-  def handle_cast({:handle, command}, state) do
-    event = handle_command(command, state)
-    new_state = apply_event(event, state)
+  def handle_call({:handle, command}, _from, state) do
+    case handle_command(command, state) do
+      {:error, reason} ->
+        {:reply, {:error, reason}, state}
 
-    # I assume we are pushing this message back purely for
-    # demonstration purposes, so I keep it as is.
-    #
-    # In real life application I would feel reluctant to
-    # have this dependency inside an async (cast) message
-    # handler.
-    if(state.observer, do: send(state.observer, {new_state, event}))
-
-    {:noreply, new_state}
+      handle_result ->
+        emitted_events = List.wrap(handle_result)
+        new_state = Enum.reduce(emitted_events, state, &apply_event/2)
+        {:reply, {:ok, emitted_events}, new_state}
+    end
   end
 
   def handle_command(%OpenAccount{} = open, %State{}) do
@@ -91,11 +84,27 @@ defmodule Account do
   end
 
   def handle_command(%DepositFunds{} = deposit, %State{} = state) do
-    %FundsDeposited{amount: deposit.amount, balance: state.balance + deposit.amount}
+    %FundsDeposited{
+      account_number: state.account_number,
+      amount: deposit.amount,
+      new_balance: state.balance + deposit.amount
+    }
   end
 
   def handle_command(%WithdrawFunds{} = withdraw, %State{} = state) do
-    %FundsWithdrawn{amount: withdraw.amount, balance: state.balance - withdraw.amount}
+    event = %FundsWithdrawn{
+      account_number: state.account_number,
+      amount: withdraw.amount,
+      new_balance: state.balance - withdraw.amount
+    }
+
+    cond do
+      event.new_balance < 0 ->
+        {:error, :insufficient_funds}
+
+      :otherwise ->
+        event
+    end
   end
 
   def apply_event(%AccountOpened{} = opened, %State{} = state) do
