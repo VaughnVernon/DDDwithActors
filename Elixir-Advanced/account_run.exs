@@ -16,7 +16,7 @@ defmodule Receiver do
   end
 end
 
-account = Account.start()
+{:ok, account} = Account.start_link()
 
 account
 |> Account.open(account_number: "A-1234", initial_balance: 100)

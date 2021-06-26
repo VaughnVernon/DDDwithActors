@@ -1,7 +1,7 @@
 defmodule Account do
   defmodule State do
     @derive {Inspect, only: [:account_number, :balance]}
-    defstruct account_number: nil, balance: nil
+    defstruct account_number: nil, balance: nil, observer: nil
   end
 
   defmodule Commands do
@@ -39,32 +39,48 @@ defmodule Account do
 
   alias Events.{AccountOpened, FundsDeposited, FundsWithdrawn}
 
-  def start do
-    spawn(__MODULE__, :process, [%State{}])
-  end
+  use GenServer
 
-  def process(state) do
-    receive do
-      {sender, command} ->
-        {newState, event} = handle(state, command)
-        send(sender, {newState, event})
-        process(newState)
-    end
+  # Client (Public API)
+
+  def start_link(observer \\ self()) do
+    GenServer.start_link(__MODULE__, observer)
   end
 
   def open(pid, fields) do
-    send(pid, {self(), struct!(OpenAccount, fields)})
+    :ok = GenServer.cast(pid, {:handle, struct!(OpenAccount, fields)})
     pid
   end
 
   def deposit(pid, fields) do
-    send(pid, {self(), struct!(DepositFunds, fields)})
+    :ok = GenServer.cast(pid, {:handle, struct!(DepositFunds, fields)})
     pid
   end
 
   def withdraw(pid, fields) do
-    send(pid, {self(), struct!(WithdrawFunds, fields)})
+    :ok = GenServer.cast(pid, {:handle, struct!(WithdrawFunds, fields)})
     pid
+  end
+
+  # Server (process implementation)
+
+  def init(observer) do
+    {:ok, %State{observer: observer}}
+  end
+
+  def handle_cast({:handle, command}, state) do
+    result = handle(state, command)
+
+    # I assume we are pushing this message back purely for
+    # demonstration purposes, so I keep it as is.
+    #
+    # In real life application I would feel reluctant to
+    # have this dependency inside an async (cast) message
+    # handler.
+    if(state.observer, do: send(state.observer, result))
+
+    {new_state, _event} = result
+    {:noreply, new_state}
   end
 
   def handle(%State{} = state, %OpenAccount{} = open) do

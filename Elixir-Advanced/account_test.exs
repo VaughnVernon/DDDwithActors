@@ -16,11 +16,11 @@ defmodule AccountTest do
 
     assert capture_io(execute_script) =~ """
            %Account.Events.AccountOpened{account_number: \"A-1234\", initial_balance: 100}
-           %Account.State{account_number: \"A-1234\", balance: 100}
+           #Account.State<account_number: \"A-1234\", balance: 100, ...>
            %Account.Events.FundsDeposited{amount: 50, balance: 150}
-           %Account.State{account_number: \"A-1234\", balance: 150}
+           #Account.State<account_number: \"A-1234\", balance: 150, ...>
            %Account.Events.FundsWithdrawn{amount: 75, balance: 75}
-           %Account.State{account_number: \"A-1234\", balance: 75}
+           #Account.State<account_number: \"A-1234\", balance: 75, ...>
            """
   end
 
@@ -51,24 +51,7 @@ defmodule AccountTest do
   end
 
   def start_supervised_account(_ctx) do
-    pid =
-      start_supervised!(%{
-        # See start_account_link/1 for explanation of
-        # this verbose syntax.
-        id: Account,
-        start: {__MODULE__, :start_account_link, []}
-      })
-
-    [account_pid: pid]
-  end
-
-  # This is a temporary solution to Account not having
-  # a proper child_spec/1 of its own. This will go
-  # away when we convert Account to a GenServer.
-  def start_account_link do
-    pid = Account.start()
-    Process.link(pid)
-    {:ok, pid}
+    [account_pid: start_supervised!({Account, self()})]
   end
 end
 
