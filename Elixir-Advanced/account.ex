@@ -3,8 +3,9 @@ defmodule Account do
     defstruct account_number: nil, balance: nil
 
     defimpl String.Chars, for: State do
-      def to_string(state),
-        do: "Account.State account_number: #{state.account_number}, balance: #{state.balance}"
+      def to_string(state) do
+        "Account.State account_number: #{state.account_number}, balance: #{state.balance}"
+      end
     end
   end
 
@@ -30,9 +31,9 @@ defmodule Account do
     end
 
     defimpl String.Chars, for: AccountOpened do
-      def to_string(event),
-        do:
-          "Account.AccountOpened account_number: #{event.account_number}, initial_balance: #{event.initial_balance}"
+      def to_string(event) do
+        "Account.AccountOpened account_number: #{event.account_number}, initial_balance: #{event.initial_balance}"
+      end
     end
 
     defmodule FundsDeposited do
@@ -40,8 +41,9 @@ defmodule Account do
     end
 
     defimpl String.Chars, for: FundsDeposited do
-      def to_string(event),
-        do: "Account.FundsDeposited amount: #{event.amount}, balance: #{event.balance}"
+      def to_string(event) do
+        "Account.FundsDeposited amount: #{event.amount}, balance: #{event.balance}"
+      end
     end
 
     defmodule FundsWithdrawn do
@@ -49,8 +51,9 @@ defmodule Account do
     end
 
     defimpl String.Chars, for: FundsWithdrawn do
-      def to_string(event),
-        do: "Account.FundsWithdrawn amount: #{event.amount}, balance: #{event.balance}"
+      def to_string(event) do
+        "Account.FundsWithdrawn amount: #{event.amount}, balance: #{event.balance}"
+      end
     end
   end
 
